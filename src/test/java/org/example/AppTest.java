@@ -19,7 +19,7 @@ public class AppTest
         int addResult = app.Add(number1,number2);
         assertEquals
                 ("This is not equal!",
-                        10,addResult);
+                        8,addResult);
     }
 
     @Test
