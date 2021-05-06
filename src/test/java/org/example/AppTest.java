@@ -18,19 +18,19 @@ public class AppTest {
     public void AddTest() {
         int addResult = app.Add(number1, number2);
         assertEquals("This is not equal!",
-                        8, addResult);
+                        1, addResult);
     }
 
     @Test
     public void SubtractTest() throws Exception {
         int SubResult = app.Subtract(number2,number1);
-        assertEquals(2,SubResult);
+        assertEquals(3,SubResult);
     }
 
     @Test
     public void MultiplyTest() throws Exception {
         int MultipResult = app.Multiply(number2,number1);
-        assertEquals(15,MultipResult);
+        assertEquals(13,MultipResult);
     }
 
     @Test
