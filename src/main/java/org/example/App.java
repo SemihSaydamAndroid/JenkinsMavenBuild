@@ -7,6 +7,9 @@ package org.example;
 public class App 
 {
 
+
+    //test gitlab integration
+
     public static void main( String[] args )
     {
         System.out.println("Merhaba Medium !");
